@@ -1,0 +1,6 @@
+This is the readme file for my tracker scripts 
+
+control.c is the main starting point 
+
+the idea is to send it usr1 and usr2 sig with the following 
+ps -face | grep "control" | awk '{print $2}' | xargs kill -s USR1
